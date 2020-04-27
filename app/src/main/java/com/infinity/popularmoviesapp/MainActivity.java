@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements MoviesAdapter.OnM
     private ArrayList<Movie> mMovieArrayList;
     private JSONParser jsonParser;
     private String moviesURL ="https://api.themoviedb.org/3/movie/";
-    private String apiKey="api_key=9da3e04402ffad9e5a100c5569dc26b1";
+    private String apiKey="api_key=<yourapikey>";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
